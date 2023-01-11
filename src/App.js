@@ -4,7 +4,7 @@ import './App.css';
 import Counter from "./Counter.jsx"
 import Input from "./Input.jsx"
 import { useState } from 'react';
-
+import Lightbulb from "./Lightbulb"
 function App() {
   const [counter, SetCounter] = useState(0)
   return (
@@ -13,9 +13,10 @@ function App() {
         <Counter counter={counter} SetCounter={SetCounter}/><Input counter={counter} SetCounter={SetCounter}/>
         
         <p>
+
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        
+        <Lightbulb/>
       </header>
     </div>
   );

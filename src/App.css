@@ -1,3 +1,11 @@
+body{
+  background-image: url("./Hintergrundbild 3.jpeg");
+
+
+
+
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Button {
+  margin: 0px 20px;
+  display: flex; 
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.826);
+  width: 100%;
+}
+
+
+
+
+section{
+  width: 130px;;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.FullWidth{
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+}
+#ChangeColorBtn{
+  width: 130px;
+  height: 25px;
 }
